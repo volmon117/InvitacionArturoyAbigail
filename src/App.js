@@ -23,7 +23,7 @@ const theme = createTheme({
 class App extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { deadline: "September, 30, 2022, 19:00" };
+		this.state = { deadline: "October, 30, 2023, 19:00" };
 	}
 	render() {
 		return (

@@ -19,15 +19,13 @@ const Hashtag = () => {
 					<Typography variant="h3">
 						Comparte con nosotros todas tus fotogracias del evento
 						<br />
-						usando el siguiente # en todas tus publicaciones de facebook e
-						instagram
 					</Typography>
-					<Typography variant="h2">#BodaBrisia&Santiago2022</Typography>
-					<Typography variant="h3">Agrega tus fotos a este <a href="https://photos.app.goo.gl/Tx96HMCNxx1t9SmG8">album</a> </Typography>
-					<FaInstagramSquare style={{ fontSize: "50px", color: "#F85043" }} />
-					<SiFacebook
-						style={{ fontSize: "50px", color: "#1195F5", marginRight: "20px" }}
-					/>
+					<Typography variant="h3">
+						Agrega tus fotos a este <a href="https://photos.app.goo.gl/Tx96HMCNxx1t9SmG8">album</a>
+					</Typography>
+					<br />
+					<br />
+					<br />
 				</Box>
 			</Box>
 			<Box
@@ -40,17 +38,14 @@ const Hashtag = () => {
 			>
 				<Box justifyContent={"center"}>
 					<Typography variant="h3">
-						Comparte con nosotros todas tus fotogracias del evento usando el
-						siguiente # en todas tus publicaciones de facebook e instagram
+						Comparte con nosotros todas tus fotogracias del evento
 					</Typography>
 					<Typography variant="h3">
-						<br />
-						#BodaBrisia&Santiago2022
+						Agrega tus fotos a este <a href="https://photos.app.goo.gl/Tx96HMCNxx1t9SmG8">album</a>
 					</Typography>
-					<FaInstagramSquare style={{ fontSize: "50px", color: "#F85043" }} />
-					<SiFacebook
-						style={{ fontSize: "50px", color: "#1195F5", marginRight: "20px" }}
-					/>
+					<br />
+					<br />
+					<br />
 				</Box>
 			</Box>
 		</Box>

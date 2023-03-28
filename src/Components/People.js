@@ -15,7 +15,7 @@ const People = () => {
 		<Box paddingBottom="200px">
 			<ThemeProvider theme={theme}>
 				<Typography variant="h3">
-					Con la bendición de Díos y de nuestros padres
+					Con la bendición de nuestros padrinos
 				</Typography>
 			</ThemeProvider>
 			<br />
@@ -37,19 +37,6 @@ const People = () => {
 				&
 				<br />
 				Santiago Del Blanco Chávez
-			</Typography>
-			<Typography variant="h3">
-				<br />
-				En Compañía de nuestros padrinos
-				<br />
-				<br />
-			</Typography>
-			<Typography variant="h4">
-				Patricia Adela Hernández Méndez
-				<br />
-				&
-				<br />
-				J. Jesus Pompa Reyna
 			</Typography>
 			<br />
 		</Box>

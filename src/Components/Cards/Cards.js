@@ -3,8 +3,8 @@ import Card from "@mui/material/Card";
 import { CardActionArea, createTheme, ThemeProvider } from "@material-ui/core";
 import "../../App.css";
 import { Box } from "@mui/material";
-import imageniglesia from "../../Images/iglesiafoto.jpg";
-import imagencipres from "../../Images/cipres.jpeg";
+//import imageniglesia from "../../Images/iglesiafoto.jpg";
+//import imagencipres from "../../Images/cipres.jpeg";
 
 const theme = createTheme({
 	typography: {
@@ -39,7 +39,7 @@ const Cards = () => {
 							<CardActionArea onClick={handleClickIglesia}>
 								<CardMedia
 									component="img"
-									image={imageniglesia}
+									// image={imageniglesia}
 									alt="Parroquia San Pablo, Las Fuentes"
 								/>
 								<CardContent>
@@ -60,7 +60,7 @@ const Cards = () => {
 							<CardActionArea onClick={handleClickCipres}>
 								<CardMedia
 									component="img"
-									image={imagencipres}
+									// image={imagencipres}
 									alt="Hacienda del Cipres"
 								/>
 								<CardContent>
