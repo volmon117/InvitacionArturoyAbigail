@@ -9,7 +9,7 @@ import copas from "../Images/salud.png";
 import baile from "../Images/baile.png";
 import martini from "../Images/martini.png";
 import plato from "../Images/restaurante.png";
-import iglesia from "../Images/iglesia.png";
+import civil from "../Images/civil.png";
 import pista from "../Images/pista.png";
 
 const Outline = styled(Box)(({ theme }) => ({
@@ -66,9 +66,10 @@ const TimeLine = () => {
 						<TimelineDot
 							sx={{
 								backgroundColor: "#f5e8e0",
-								backgroundImage: `url(${iglesia})`,
+								backgroundImage: `url(${civil})`,
 								backgroundPosition: "center",
-								backgroundSize: "cover",
+								backgroundSize: "68%",
+								backgroundRepeat: "no-repeat",
 								height: {
 									xs: "80px",
 									md: "130px",
@@ -101,7 +102,7 @@ const TimeLine = () => {
 											fontSize: "2rem !important",
 										}}
 									>
-										Ceremonia Religiosa
+										Boda Civil
 									</Typography>
 									<Typography
 										variant="body1"
@@ -124,14 +125,13 @@ const TimeLine = () => {
 											fontSize: "1.5rem !important",
 										}}
 									>
-										Parroquia San Pablo las fuentes
 									</Typography>
 								</Box>
 							</ContentBox>
 						</Outline>
 					</TimelineContent>
 				</TimelineItem>
-				<TimelineItem>
+				{/* <TimelineItem>
 					<TimelineSeparator>
 						<TimelineDot
 							sx={{
@@ -191,8 +191,8 @@ const TimeLine = () => {
 							</ContentBox>
 						</Outline>
 					</TimelineContent>
-				</TimelineItem>
-				<TimelineItem>
+				</TimelineItem> */}
+				{/* <TimelineItem>
 					<TimelineSeparator>
 						<TimelineDot
 							sx={{
@@ -243,15 +243,16 @@ const TimeLine = () => {
 							</ContentBox>
 						</Outline>
 					</TimelineContent>
-				</TimelineItem>
+				</TimelineItem> */}
 				<TimelineItem>
 					<TimelineSeparator>
 						<TimelineDot
 							sx={{
 								backgroundColor: "#f5e8e0",
-								backgroundImage: `url(${plato})`,
+								backgroundImage: `url(${pista})`,
 								backgroundPosition: "center",
-								backgroundSize: "cover",
+								backgroundSize: "75%",
+								backgroundRepeat: "no-repeat",
 								height: "100px",
 								width: "100px",
 							}}
@@ -277,7 +278,7 @@ const TimeLine = () => {
 											fontSize: "2rem !important",
 										}}
 									>
-										Banquete
+										Apertura de pista
 									</Typography>
 									<Typography
 										variant="body1"
@@ -289,7 +290,7 @@ const TimeLine = () => {
 											letterSpacing: "0.1rem",
 										}}
 									>
-										10:00 PM
+										8:00 PM
 									</Typography>
 								</Box>
 							</ContentBox>
@@ -301,20 +302,21 @@ const TimeLine = () => {
 						<TimelineDot
 							sx={{
 								backgroundColor: "#f5e8e0",
-								backgroundImage: `url(${pista})`,
+								backgroundImage: `url(${copas})`,
 								backgroundPosition: "center",
-								backgroundSize: "cover",
+								backgroundSize: "75%",
+								backgroundRepeat: "no-repeat",
 								height: "100px",
 								width: "100px",
 							}}
 						/>
-						<TimelineConnector
+						{/* <TimelineConnector
 							sx={{
 								height: "130px",
 								width: 0,
 								border: "1px dashed #ffeded",
 							}}
-						/>
+						/> */}
 					</TimelineSeparator>
 					<TimelineContent>
 						<Outline>
@@ -329,7 +331,7 @@ const TimeLine = () => {
 											fontSize: "2rem !important",
 										}}
 									>
-										Apertura de pista
+										Fin del evento
 									</Typography>
 									<Typography
 										variant="body1"
@@ -341,14 +343,14 @@ const TimeLine = () => {
 											letterSpacing: "0.1rem",
 										}}
 									>
-										11:00 PM
+										3:00 AM
 									</Typography>
 								</Box>
 							</ContentBox>
 						</Outline>
 					</TimelineContent>
 				</TimelineItem>
-				<TimelineItem>
+				{/* <TimelineItem>
 					<TimelineSeparator>
 						<TimelineDot
 							sx={{
@@ -405,7 +407,7 @@ const TimeLine = () => {
 							</ContentBox>
 						</Outline>
 					</TimelineContent>
-				</TimelineItem>
+				</TimelineItem> */}
 			</Timeline>
 		</Box>
 	);

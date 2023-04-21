@@ -3,8 +3,7 @@ import Card from "@mui/material/Card";
 import { CardActionArea, createTheme, ThemeProvider } from "@material-ui/core";
 import "../../App.css";
 import { Box } from "@mui/material";
-//import imageniglesia from "../../Images/iglesiafoto.jpg";
-//import imagencipres from "../../Images/cipres.jpeg";
+import imagen from "../../Images/bellago.webp";
 
 const theme = createTheme({
 	typography: {
@@ -13,14 +12,10 @@ const theme = createTheme({
 });
 
 const Cards = () => {
-	const handleClickIglesia = () => {
+	const handleClick = () => {
 		window.open(
-			"https://www.google.com/maps/place/Parroquia+San+Pablo,+Las+Fuentes/@20.6238022,-103.4299002,17z/data=!3m1!4b1!4m5!3m4!1s0x8428ac5d510cac13:0xf1ea942b511ac58d!8m2!3d20.6238144!4d-103.4276744"
+			"https://www.google.com/travel/hotels/s/4ah5gSReZn9nVNVN6"
 		);
-	};
-
-	const handleClickCipres = () => {
-		window.open("https://goo.gl/maps/yWNKJ4yhFgZkZrWe7");
 	};
 
 	return (
@@ -34,44 +29,18 @@ const Cards = () => {
 					className={Grid}
 					sx={{ pt: 6 }}
 				>
-					<Grid item xs={12} sm={6} p={2}>
+					<Grid item xs={12} sm={9} p={2}>
 						<Card>
-							<CardActionArea onClick={handleClickIglesia}>
+							<CardActionArea onClick={handleClick}>
 								<CardMedia
 									component="img"
-									// image={imageniglesia}
-									alt="Parroquia San Pablo, Las Fuentes"
+									image={imagen}
+									alt="Hotel Bellago"
 								/>
 								<CardContent>
-									<Typography variant="h5">Iglesia</Typography>
-									<Typography variant="body">
-										Parroquia San Pablo las fuentes
-										<br />
-									</Typography>
+									<Typography variant="h5">Hotel Bellago</Typography>
 									<Typography variant="body3">
-										Calle San Antonio 105, Las Fuentes, 45070 Zapopan, Jal.
-									</Typography>
-								</CardContent>
-							</CardActionArea>
-						</Card>
-					</Grid>
-					<Grid item xs={12} sm={6} p={2}>
-						<Card>
-							<CardActionArea onClick={handleClickCipres}>
-								<CardMedia
-									component="img"
-									// image={imagencipres}
-									alt="Hacienda del Cipres"
-								/>
-								<CardContent>
-									<Typography variant="h5">Salon</Typography>
-									<Typography variant="body">
-										Hacienda del Cipres
-										<br />
-									</Typography>
-									<Typography variant="body3">
-										Valle de Sta Cruz 9, Valle de Santa Cruz, 45640 Santa Cruz
-										de las Flores, Jal.
+										20 de Noviembre 1646, El Raicero, 47800 Ocotlán, Jal.
 									</Typography>
 								</CardContent>
 							</CardActionArea>

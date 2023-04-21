@@ -1,7 +1,7 @@
 import { Typography, Box } from "@mui/material";
 import React, { Component } from "react";
 import styles from "./countdown.module.css";
-//import background from "../../Images/foto2.jpg";
+import background from "../../Images/imagen1.jpeg";
 import { Card, CardMedia } from "@material-ui/core";
 
 class Countdown extends Component {
@@ -35,13 +35,7 @@ class Countdown extends Component {
 	render() {
 		return (
 			<div id="countdown">
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<Typography variant="h3" fontFamily="Tangerine">
+				<Typography variant="h3" fontFamily="Tangerine" paddingTop={30}>
 					<p>
 						Las mejores cosas de la vida merecen ser compartidas, gracias por
 						ser parte de nuestra historia...
@@ -52,40 +46,24 @@ class Countdown extends Component {
 					fontFamily="Tangerine"
 					variant="h3"
 					component="div"
+					paddingBottom={30}
 				>
 					{this.leading0(this.state.days)} Dias‎ ‎ ‎
 					{this.leading0(this.state.hours)} Horas‎ ‎ ‎
 					{this.leading0(this.state.minutes)} Minutos‎ ‎ ‎
 					{this.leading0(this.state.seconds)} Segundos
-					<br />
-					<br />
 				</Typography>
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				{/* <Box
+				<Box
 					id="saveDate"
 					sx={{
 						backgroundImage: `url(${background})`,
-						padding: "320px 0 340px 0",
+						padding: "400px 0 340px 0",
 						backgroundPosition: "center",
 					}}
-				></Box> */}
-				<Card >
-					{/* <CardMedia component="img" image={background} /> */}
-				</Card>
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
+				></Box>
+				{/* <Card >
+					<CardMedia component="img" image={background} />
+				</Card> */}
 			</div>
 		);
 	}

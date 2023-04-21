@@ -5,7 +5,7 @@ import { Typography } from "@material-ui/core";
 import { Box } from "@mui/material";
 import { MenuItem } from "@mui/material";
 import style from "../RSVP/Confirmation.module.css";
-//import background from "../../Images/foto3.jpg";
+import background from "../../Images/imagen4.jpeg";
 
 const Rsvp = () => {
 	const [data, setData] = useState({
@@ -13,8 +13,9 @@ const Rsvp = () => {
 		people: "",
 		phone: "",
 		assistence: "",
+		alergies: ""
 	});
-	const { name, people, phone, assistence } = data;
+	const { name, people, phone, alergies, assistence } = data;
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -26,11 +27,11 @@ const Rsvp = () => {
 					headers: {
 						"Content-Type": "application/json",
 					},
-					body: JSON.stringify([[name, people, phone, assistence]]),
+					body: JSON.stringify([[name, people, phone, alergies, assistence]]),
 				}
 			);
 			await response.json();
-			setData({ assistence: "", name: "", people: "", phone: "" });
+			setData({ assistence: "", name: "", people: "", phone: "", alergies: "" });
 		} catch (err) {
 			console.log(err);
 		}
@@ -41,7 +42,7 @@ const Rsvp = () => {
 			<Box
 				id="Confirmacion"
 				sx={{
-					//backgroundImage: `linear-gradient(to right, rgba(140, 140, 140, 0.4), rgba(140, 140, 140, 0.4)),url(${background})`,
+					backgroundImage: `linear-gradient(to right, rgba(140, 140, 140, 0.4), rgba(140, 140, 140, 0.4)),url(${background})`,
 					padding: "250px 0 250px 0",
 					backgroundPosition: "center",
 				}}
@@ -108,6 +109,20 @@ const Rsvp = () => {
 							setData({ ...data, phone: e.target.value });
 						}}
 					/>
+					<TextField
+						id="alergies"
+						name="alergies"
+						label="Alergias"
+						variant="standard"
+						size="small"
+						value={data.alergies}
+						style={{ marginRight: "10px", width: "20%" }}
+						InputLabelProps={{ className: style.label }}
+						onChange={(e) => {
+							setData({ ...data, alergies: e.target.value });
+						}}
+					/>
+					<br/>
 					<TextField
 						id="asistencia"
 						name="assistence"

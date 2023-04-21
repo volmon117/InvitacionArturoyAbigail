@@ -22,7 +22,7 @@ const Gifts = () => {
 				<Card>
 					<CardActionArea
 						onClick={() => {
-							navigator.clipboard.writeText("012320015078156144");
+							navigator.clipboard.writeText("012320012371486666");
 						}}
 					>
 						<br />
@@ -30,7 +30,7 @@ const Gifts = () => {
 						{/* <CardMedia component="img" image={bbva} height="100px"></CardMedia> */}
 						<CardContent>
 							<h5>
-								"numero de cuenta"
+								012320012371486666
 								<br />
 								click para copiar
 							</h5>

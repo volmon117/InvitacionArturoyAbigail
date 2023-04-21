@@ -12,12 +12,12 @@ import ScrollToColor from "./ScrollToColor";
 import { Link } from "react-scroll";
 
 const pages = [
-	{ menu: "Save the Date", id: "saveDate" },
+	{ menu: "Date", id: "saveDate" },
 	{ menu: "Countdown", id: "countdown" },
 	{ menu: "Timeline", id: "timeline" },
 	{ menu: "Ubicación", id: "ubicacion" },
 	{ menu: "Confirmación", id: "Confirmacion" },
-	{ menu: "Hashtag", id: "hashtag" },
+	{ menu: "Fotos", id: "hashtag" },
 	{ menu: "Regalos", id: "Regalos" },
 	{ menu: "Vestimenta", id: "Codigo" },
 ];
@@ -35,20 +35,8 @@ const Navegation = () => {
 
 	return (
 		<ScrollToColor>
-			<AppBar style={{ boxShadow: "none" }}>
+			<AppBar >
 				<Box disableGutters sx={{ display: "flex" }}>
-					<Typography
-						paddingLeft={"20px"}
-						fontFamily="Tangerine"
-						variant="h2"
-						noWrap
-						component="div"
-						sx={{ display: { xs: "none", md: "flex" } }}
-						color="black"
-						justifyContent="flex-start"
-					>
-						Arturo y Abigail
-					</Typography>
 					<Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
 						<IconButton
 							size="large"
@@ -76,7 +64,7 @@ const Navegation = () => {
 							open={Boolean(anchorElNav)}
 							onClose={handleCloseNavMenu}
 							sx={{
-								display: { xs: "block", md: "none" },
+								display: { xs: "flex", md: "none" },
 							}}
 						>
 							{pages.map((page) => (
@@ -95,7 +83,7 @@ const Navegation = () => {
 						</Menu>
 						<Typography
 							fontFamily="Tangerine"
-							variant="h2"
+							variant="h3"
 							noWrap
 							component="div"
 							justifyContent={"center"}
@@ -104,9 +92,21 @@ const Navegation = () => {
 								display: { xs: "flex", md: "none" },
 							}}
 						>
-							Brisia & Santiago
+							Abigail y Arturo
 						</Typography>
 					</Box>
+					<Typography
+						paddingLeft={"20px"}
+						fontFamily="Tangerine"
+						variant="h3"
+						noWrap
+						component="div"
+						sx={{ display: { xs: "none", md: "flex" } }}
+						color="black"
+						justifyContent="flex-start"
+					>
+						Abigail y Arturo
+					</Typography>
 					<Box
 						sx={{
 							flexGrow: 1,

@@ -1,8 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import { Box } from "@mui/material";
-import { FaInstagramSquare } from "react-icons/fa";
-import { SiFacebook } from "react-icons/si";
 
 const Hashtag = () => {
 	return (
@@ -21,7 +19,7 @@ const Hashtag = () => {
 						<br />
 					</Typography>
 					<Typography variant="h3">
-						Agrega tus fotos a este <a href="https://photos.app.goo.gl/Tx96HMCNxx1t9SmG8">album</a>
+						Agrega tus fotos a este <a href="https://photos.app.goo.gl/DaKaVEvtSQKVJGi47">album</a>
 					</Typography>
 					<br />
 					<br />
@@ -41,7 +39,7 @@ const Hashtag = () => {
 						Comparte con nosotros todas tus fotogracias del evento
 					</Typography>
 					<Typography variant="h3">
-						Agrega tus fotos a este <a href="https://photos.app.goo.gl/Tx96HMCNxx1t9SmG8">album</a>
+						Agrega tus fotos a este <a href="https://photos.app.goo.gl/DaKaVEvtSQKVJGi47">album</a>
 					</Typography>
 					<br />
 					<br />

@@ -12,7 +12,7 @@ const theme = createTheme({
 
 const People = () => {
 	return (
-		<Box paddingBottom="200px">
+		<Box paddingBottom={50} paddingTop={50}>
 			<ThemeProvider theme={theme}>
 				<Typography variant="h3">
 					Con la bendición de nuestros padrinos
@@ -20,25 +20,14 @@ const People = () => {
 			</ThemeProvider>
 			<br />
 			<img src={novia} height={100} width={100} alt="" />
-			<br />
-			<Typography variant="h4">
-				Juana Yañez Olea
-				<br />
-				&
-				<br />
-				Alfredo Ponce Olivo
-			</Typography>
-			<br />
 			<img src={novio} height={100} width={100} alt="" />
 			<br />
-			<Typography variant="h4">
-				Maria de Jesús Hernández Méndez
-				<br />
-				&
-				<br />
-				Santiago Del Blanco Chávez
-			</Typography>
 			<br />
+			<Typography variant="h4" >
+				nombre 1
+				<br />
+				nombre 2
+			</Typography>
 		</Box>
 	);
 };
