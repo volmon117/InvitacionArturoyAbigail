@@ -6,9 +6,6 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import copas from "../Images/salud.png";
-import baile from "../Images/baile.png";
-import martini from "../Images/martini.png";
-import plato from "../Images/restaurante.png";
 import civil from "../Images/civil.png";
 import pista from "../Images/pista.png";
 
@@ -47,7 +44,6 @@ const ContentBox = styled(Box)(({ theme, bgColor }) => ({
 }));
 
 const TimeLine = () => {
-	console.log(true);
 	return (
 		<Box id="timeline" sx={{ pt: "3.5rem" }} paddingBottom="40px">
 			<Typography

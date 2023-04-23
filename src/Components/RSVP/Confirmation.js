@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { Typography } from "@material-ui/core";
-import { Box } from "@mui/material";
+import { Box, Dialog, DialogTitle } from "@mui/material";
 import { MenuItem } from "@mui/material";
 import style from "../RSVP/Confirmation.module.css";
 import background from "../../Images/imagen4.jpeg";
@@ -17,6 +17,18 @@ const Rsvp = () => {
 	});
 	const { name, people, phone, alergies, assistence } = data;
 
+	const [open, setOpen] = React.useState(false);
+
+	const handleClose = () => {
+		setOpen(false);
+		setTimeout(handleSubmit(),200)
+	};
+	
+	const handleClickOpen = () => {
+		setOpen(true);
+		setTimeout(handleClose, 2000);
+	};
+	
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
@@ -46,7 +58,7 @@ const Rsvp = () => {
 					padding: "250px 0 250px 0",
 					backgroundPosition: "center",
 				}}
-			>
+				>
 				<Typography variant="h2" style={{ color: "#f5e8e0" }}>RSVP</Typography>
 				<Typography variant="h3" style={{ color: "#f5e8e0" }}>
 					¡Queremos compartir este momento tan esperado contigo!
@@ -74,7 +86,7 @@ const Rsvp = () => {
 						onChange={(e) => {
 							setData({ ...data, name: e.target.value });
 						}}
-					/>
+						/>
 					<TextField
 						id="people"
 						name="people"
@@ -88,7 +100,7 @@ const Rsvp = () => {
 						onChange={(e) => {
 							setData({ ...data, people: e.target.value });
 						}}
-					>
+						>
 						<MenuItem value={1}>1</MenuItem>
 						<MenuItem value={2}>2</MenuItem>
 						<MenuItem value={3}>3</MenuItem>
@@ -108,7 +120,7 @@ const Rsvp = () => {
 						onChange={(e) => {
 							setData({ ...data, phone: e.target.value });
 						}}
-					/>
+						/>
 					<TextField
 						id="alergies"
 						name="alergies"
@@ -121,7 +133,7 @@ const Rsvp = () => {
 						onChange={(e) => {
 							setData({ ...data, alergies: e.target.value });
 						}}
-					/>
+						/>
 					<br/>
 					<TextField
 						id="asistencia"
@@ -136,7 +148,7 @@ const Rsvp = () => {
 						onChange={(e) => {
 							setData({ ...data, assistence: e.target.value });
 						}}
-					>
+						>
 						<MenuItem value={1}>Si</MenuItem>
 						<MenuItem value={0}>No</MenuItem>
 					</TextField>
@@ -145,8 +157,8 @@ const Rsvp = () => {
 					<Button
 						variant="text"
 						style={{ backgroundColor: "#fbf6f3", color: "black" }}
-						onClick={handleSubmit}
-					>
+						onClick={handleClickOpen}
+						>
 						Confirmar asistencia
 					</Button>
 					<br />
@@ -155,6 +167,11 @@ const Rsvp = () => {
 				<br />
 				<br />
 			</Box>
+			<Dialog open={open} onClose={handleClose}>
+				<DialogTitle variant="h3" style={{ backgroundColor: "#fbf6f3", color: "black"}}>
+					Gracias por tu confirmacion
+				</DialogTitle>
+			</Dialog>
 		</div>
 	);
 };

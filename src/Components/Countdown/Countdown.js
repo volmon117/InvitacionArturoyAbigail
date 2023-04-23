@@ -2,7 +2,6 @@ import { Typography, Box } from "@mui/material";
 import React, { Component } from "react";
 import styles from "./countdown.module.css";
 import background from "../../Images/imagen1.jpeg";
-import { Card, CardMedia } from "@material-ui/core";
 
 class Countdown extends Component {
 	constructor(props) {
@@ -61,9 +60,6 @@ class Countdown extends Component {
 						backgroundPosition: "center",
 					}}
 				></Box>
-				{/* <Card >
-					<CardMedia component="img" image={background} />
-				</Card> */}
 			</div>
 		);
 	}
