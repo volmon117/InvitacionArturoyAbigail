@@ -148,7 +148,7 @@ const Rsvp = () => {
 						onChange={(e) => {
 							setData({ ...data, assistence: e.target.value });
 						}}
-						>
+					>
 						<MenuItem value={1}>Si</MenuItem>
 						<MenuItem value={0}>No</MenuItem>
 					</TextField>
@@ -158,7 +158,7 @@ const Rsvp = () => {
 						variant="text"
 						style={{ backgroundColor: "#fbf6f3", color: "black" }}
 						onClick={handleClickOpen}
-						>
+					>
 						Confirmar asistencia
 					</Button>
 					<br />
@@ -168,7 +168,10 @@ const Rsvp = () => {
 				<br />
 			</Box>
 			<Dialog open={open} onClose={handleClose}>
-				<DialogTitle variant="h3" style={{ backgroundColor: "#fbf6f3", color: "black"}}>
+				<DialogTitle
+					variant="h3"
+					style={{ backgroundColor: "#fbf6f3", color: "black" }}
+				>
 					Gracias por tu confirmacion
 				</DialogTitle>
 			</Dialog>
