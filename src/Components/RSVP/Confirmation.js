@@ -33,7 +33,7 @@ const Rsvp = () => {
 		e.preventDefault();
 		try {
 			const response = await fetch(
-				"https://v1.nocodeapi.com/volmon117/google_sheets/eJCyvRmfsUnFJqCr?tabId=hoja1",
+				"https://v1.nocodeapi.com/volmon117/google_sheets/CDGgypSipMsYCxiB?tabId=hoja1",
 				{
 					method: "POST",
 					headers: {
