@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.55b5b42c.css",
-    "main.js": "/static/js/main.5545ae9c.js",
+    "main.js": "/static/js/main.5b9d6e27.js",
     "static/js/787.19adfa7d.chunk.js": "/static/js/787.19adfa7d.chunk.js",
     "static/media/imagen1.jpeg": "/static/media/imagen1.f7fe97bbc67962adf3a6.jpeg",
-    "static/media/imagen3.jpeg": "/static/media/imagen3.22d1ca9f1f093116feb6.jpeg",
+    "static/media/imagen3.jpeg": "/static/media/imagen3.bc10d8a3e5e43e8fdd1d.jpeg",
     "static/media/imagen4.jpeg": "/static/media/imagen4.51e0dc38f95eca7b274a.jpeg",
     "static/media/bellago.webp": "/static/media/bellago.ae12e646c259a6a625aa.webp",
     "static/media/anillos.png": "/static/media/anillos.9dfd1b7ff9f67e530321.png",
@@ -17,11 +17,11 @@
     "static/media/novia.webp": "/static/media/novia.dd50333d8ddfc4f28850.webp",
     "index.html": "/index.html",
     "main.55b5b42c.css.map": "/static/css/main.55b5b42c.css.map",
-    "main.5545ae9c.js.map": "/static/js/main.5545ae9c.js.map",
+    "main.5b9d6e27.js.map": "/static/js/main.5b9d6e27.js.map",
     "787.19adfa7d.chunk.js.map": "/static/js/787.19adfa7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55b5b42c.css",
-    "static/js/main.5545ae9c.js"
+    "static/js/main.5b9d6e27.js"
   ]
 }
