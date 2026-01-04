@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb8fb9c4.css",
-    "main.js": "/static/js/main.3e4d6837.js",
-    "static/js/787.19adfa7d.chunk.js": "/static/js/787.19adfa7d.chunk.js",
-    "static/media/imagen1.jpeg": "/static/media/imagen1.f7fe97bbc67962adf3a6.jpeg",
-    "static/media/imagen3.jpeg": "/static/media/imagen3.bc10d8a3e5e43e8fdd1d.jpeg",
-    "static/media/imagen4.jpeg": "/static/media/imagen4.51e0dc38f95eca7b274a.jpeg",
-    "static/media/bellago.webp": "/static/media/bellago.ae12e646c259a6a625aa.webp",
-    "static/media/anillos.png": "/static/media/anillos.9dfd1b7ff9f67e530321.png",
-    "static/media/codigo.png": "/static/media/codigo.3194a69cd552d8774c9f.png",
-    "static/media/pista.png": "/static/media/pista.9b10ed48570a9d14defc.png",
-    "static/media/salud.png": "/static/media/salud.80ee0cb204bc45358085.png",
-    "static/media/dinero.png": "/static/media/dinero.cd895ebcd1d1b01412e2.png",
-    "static/media/novio.png": "/static/media/novio.0dcd8268e3a66fe25280.png",
-    "static/media/civil.png": "/static/media/civil.7c0adddc272ae12bc919.png",
-    "static/media/novia.webp": "/static/media/novia.dd50333d8ddfc4f28850.webp",
-    "index.html": "/index.html",
-    "main.cb8fb9c4.css.map": "/static/css/main.cb8fb9c4.css.map",
-    "main.3e4d6837.js.map": "/static/js/main.3e4d6837.js.map",
-    "787.19adfa7d.chunk.js.map": "/static/js/787.19adfa7d.chunk.js.map"
+    "main.css": "/InvitacionArturoyAbigail/static/css/main.cb8fb9c4.css",
+    "main.js": "/InvitacionArturoyAbigail/static/js/main.1ab8d9ce.js",
+    "static/js/787.19adfa7d.chunk.js": "/InvitacionArturoyAbigail/static/js/787.19adfa7d.chunk.js",
+    "static/media/imagen1.jpeg": "/InvitacionArturoyAbigail/static/media/imagen1.f7fe97bbc67962adf3a6.jpeg",
+    "static/media/imagen3.jpeg": "/InvitacionArturoyAbigail/static/media/imagen3.bc10d8a3e5e43e8fdd1d.jpeg",
+    "static/media/imagen4.jpeg": "/InvitacionArturoyAbigail/static/media/imagen4.51e0dc38f95eca7b274a.jpeg",
+    "static/media/bellago.webp": "/InvitacionArturoyAbigail/static/media/bellago.ae12e646c259a6a625aa.webp",
+    "static/media/anillos.png": "/InvitacionArturoyAbigail/static/media/anillos.9dfd1b7ff9f67e530321.png",
+    "static/media/codigo.png": "/InvitacionArturoyAbigail/static/media/codigo.3194a69cd552d8774c9f.png",
+    "static/media/pista.png": "/InvitacionArturoyAbigail/static/media/pista.9b10ed48570a9d14defc.png",
+    "static/media/salud.png": "/InvitacionArturoyAbigail/static/media/salud.80ee0cb204bc45358085.png",
+    "static/media/dinero.png": "/InvitacionArturoyAbigail/static/media/dinero.cd895ebcd1d1b01412e2.png",
+    "static/media/novio.png": "/InvitacionArturoyAbigail/static/media/novio.0dcd8268e3a66fe25280.png",
+    "static/media/civil.png": "/InvitacionArturoyAbigail/static/media/civil.7c0adddc272ae12bc919.png",
+    "static/media/novia.webp": "/InvitacionArturoyAbigail/static/media/novia.dd50333d8ddfc4f28850.webp",
+    "index.html": "/InvitacionArturoyAbigail/index.html",
+    "main.cb8fb9c4.css.map": "/InvitacionArturoyAbigail/static/css/main.cb8fb9c4.css.map",
+    "main.1ab8d9ce.js.map": "/InvitacionArturoyAbigail/static/js/main.1ab8d9ce.js.map",
+    "787.19adfa7d.chunk.js.map": "/InvitacionArturoyAbigail/static/js/787.19adfa7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb8fb9c4.css",
-    "static/js/main.3e4d6837.js"
+    "static/js/main.1ab8d9ce.js"
   ]
 }
